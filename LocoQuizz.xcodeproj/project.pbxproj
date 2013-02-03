@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22D9789E16BD56340065DA5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D9789D16BD56340065DA5F /* UIKit.framework */; };
+		22D978A016BD56340065DA5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D9789F16BD56340065DA5F /* Foundation.framework */; };
+		22D978A216BD56340065DA5F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D978A116BD56340065DA5F /* CoreGraphics.framework */; };
+		22D978A816BD56340065DA5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22D978A616BD56340065DA5F /* InfoPlist.strings */; };
+		22D978AA16BD56340065DA5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D978A916BD56340065DA5F /* main.m */; };
+		22D978AE16BD56340065DA5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D978AD16BD56340065DA5F /* AppDelegate.m */; };
+		22D978B016BD56340065DA5F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D978AF16BD56340065DA5F /* Default.png */; };
+		22D978B216BD56340065DA5F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D978B116BD56340065DA5F /* Default@2x.png */; };
+		22D978B416BD56340065DA5F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D978B316BD56340065DA5F /* Default-568h@2x.png */; };
+		22D978B716BD56340065DA5F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D978B516BD56340065DA5F /* MainStoryboard.storyboard */; };
+		22D978BA16BD56340065DA5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D978B916BD56340065DA5F /* ViewController.m */; };
+		22D978C116BD57220065DA5F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D978C016BD57220065DA5F /* CoreLocation.framework */; };
+		22D978C316BD576E0065DA5F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D978C216BD576E0065DA5F /* icon.png */; };
+		22D978C516BD57750065DA5F /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D978C416BD57750065DA5F /* icon@2x.png */; };
+		22D978C716BD57850065DA5F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D978C616BD57850065DA5F /* Default.png */; };
+		22D978C916BD578C0065DA5F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D978C816BD578C0065DA5F /* Default@2x.png */; };
+		22D978CB16BD57960065DA5F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D978CA16BD57960065DA5F /* Default-568h@2x.png */; };
+		22D978CE16BD5E410065DA5F /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D978CD16BD5E410065DA5F /* GameViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22D9789A16BD56340065DA5F /* LocoQuizz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocoQuizz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D9789D16BD56340065DA5F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22D9789F16BD56340065DA5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22D978A116BD56340065DA5F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22D978A516BD56340065DA5F /* LocoQuizz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocoQuizz-Info.plist"; sourceTree = "<group>"; };
+		22D978A716BD56340065DA5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22D978A916BD56340065DA5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22D978AB16BD56340065DA5F /* LocoQuizz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocoQuizz-Prefix.pch"; sourceTree = "<group>"; };
+		22D978AC16BD56340065DA5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22D978AD16BD56340065DA5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22D978AF16BD56340065DA5F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		22D978B116BD56340065DA5F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		22D978B316BD56340065DA5F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		22D978B616BD56340065DA5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		22D978B816BD56340065DA5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22D978B916BD56340065DA5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22D978C016BD57220065DA5F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		22D978C216BD576E0065DA5F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		22D978C416BD57750065DA5F /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		22D978C616BD57850065DA5F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		22D978C816BD578C0065DA5F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		22D978CA16BD57960065DA5F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		22D978CC16BD5E410065DA5F /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		22D978CD16BD5E410065DA5F /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22D9789716BD56340065DA5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D978C116BD57220065DA5F /* CoreLocation.framework in Frameworks */,
+				22D9789E16BD56340065DA5F /* UIKit.framework in Frameworks */,
+				22D978A016BD56340065DA5F /* Foundation.framework in Frameworks */,
+				22D978A216BD56340065DA5F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22D9789116BD56340065DA5F = {
+			isa = PBXGroup;
+			children = (
+				22D978CA16BD57960065DA5F /* Default-568h@2x.png */,
+				22D978C816BD578C0065DA5F /* Default@2x.png */,
+				22D978C616BD57850065DA5F /* Default.png */,
+				22D978C416BD57750065DA5F /* icon@2x.png */,
+				22D978C216BD576E0065DA5F /* icon.png */,
+				22D978C016BD57220065DA5F /* CoreLocation.framework */,
+				22D978A316BD56340065DA5F /* LocoQuizz */,
+				22D9789C16BD56340065DA5F /* Frameworks */,
+				22D9789B16BD56340065DA5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22D9789B16BD56340065DA5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22D9789A16BD56340065DA5F /* LocoQuizz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22D9789C16BD56340065DA5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22D9789D16BD56340065DA5F /* UIKit.framework */,
+				22D9789F16BD56340065DA5F /* Foundation.framework */,
+				22D978A116BD56340065DA5F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22D978A316BD56340065DA5F /* LocoQuizz */ = {
+			isa = PBXGroup;
+			children = (
+				22D978AC16BD56340065DA5F /* AppDelegate.h */,
+				22D978AD16BD56340065DA5F /* AppDelegate.m */,
+				22D978B516BD56340065DA5F /* MainStoryboard.storyboard */,
+				22D978CC16BD5E410065DA5F /* GameViewController.h */,
+				22D978CD16BD5E410065DA5F /* GameViewController.m */,
+				22D978B816BD56340065DA5F /* ViewController.h */,
+				22D978B916BD56340065DA5F /* ViewController.m */,
+				22D978A416BD56340065DA5F /* Supporting Files */,
+			);
+			path = LocoQuizz;
+			sourceTree = "<group>";
+		};
+		22D978A416BD56340065DA5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22D978A516BD56340065DA5F /* LocoQuizz-Info.plist */,
+				22D978A616BD56340065DA5F /* InfoPlist.strings */,
+				22D978A916BD56340065DA5F /* main.m */,
+				22D978AB16BD56340065DA5F /* LocoQuizz-Prefix.pch */,
+				22D978AF16BD56340065DA5F /* Default.png */,
+				22D978B116BD56340065DA5F /* Default@2x.png */,
+				22D978B316BD56340065DA5F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22D9789916BD56340065DA5F /* LocoQuizz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D978BD16BD56340065DA5F /* Build configuration list for PBXNativeTarget "LocoQuizz" */;
+			buildPhases = (
+				22D9789616BD56340065DA5F /* Sources */,
+				22D9789716BD56340065DA5F /* Frameworks */,
+				22D9789816BD56340065DA5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocoQuizz;
+			productName = LocoQuizz;
+			productReference = 22D9789A16BD56340065DA5F /* LocoQuizz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22D9789216BD56340065DA5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Matthew Pateman";
+			};
+			buildConfigurationList = 22D9789516BD56340065DA5F /* Build configuration list for PBXProject "LocoQuizz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22D9789116BD56340065DA5F;
+			productRefGroup = 22D9789B16BD56340065DA5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22D9789916BD56340065DA5F /* LocoQuizz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22D9789816BD56340065DA5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D978A816BD56340065DA5F /* InfoPlist.strings in Resources */,
+				22D978B016BD56340065DA5F /* Default.png in Resources */,
+				22D978B216BD56340065DA5F /* Default@2x.png in Resources */,
+				22D978B416BD56340065DA5F /* Default-568h@2x.png in Resources */,
+				22D978B716BD56340065DA5F /* MainStoryboard.storyboard in Resources */,
+				22D978C316BD576E0065DA5F /* icon.png in Resources */,
+				22D978C516BD57750065DA5F /* icon@2x.png in Resources */,
+				22D978C716BD57850065DA5F /* Default.png in Resources */,
+				22D978C916BD578C0065DA5F /* Default@2x.png in Resources */,
+				22D978CB16BD57960065DA5F /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22D9789616BD56340065DA5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D978AA16BD56340065DA5F /* main.m in Sources */,
+				22D978AE16BD56340065DA5F /* AppDelegate.m in Sources */,
+				22D978BA16BD56340065DA5F /* ViewController.m in Sources */,
+				22D978CE16BD5E410065DA5F /* GameViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22D978A616BD56340065DA5F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22D978A716BD56340065DA5F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22D978B516BD56340065DA5F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22D978B616BD56340065DA5F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22D978BB16BD56340065DA5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22D978BC16BD56340065DA5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22D978BE16BD56340065DA5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocoQuizz/LocoQuizz-Prefix.pch";
+				INFOPLIST_FILE = "LocoQuizz/LocoQuizz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22D978BF16BD56340065DA5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocoQuizz/LocoQuizz-Prefix.pch";
+				INFOPLIST_FILE = "LocoQuizz/LocoQuizz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22D9789516BD56340065DA5F /* Build configuration list for PBXProject "LocoQuizz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D978BB16BD56340065DA5F /* Debug */,
+				22D978BC16BD56340065DA5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22D978BD16BD56340065DA5F /* Build configuration list for PBXNativeTarget "LocoQuizz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D978BE16BD56340065DA5F /* Debug */,
+				22D978BF16BD56340065DA5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22D9789216BD56340065DA5F /* Project object */;
+}
