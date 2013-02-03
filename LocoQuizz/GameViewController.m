@@ -99,7 +99,7 @@
     
     NSArray *venueNames = self.venuesDict.allKeys;
     NSString *currentVenue = venueNames[arc4random()%venueNames.count];
-    NSString *rightAnswer = [self.venuesDict valueForKey:currentVenue];
+    self.rightAnswer = [self.venuesDict valueForKey:currentVenue];
 
     //define wrong answers
     NSString *wrongChoiceOne = [self.venuesDict valueForKey:[venueNames objectAtIndex:arc4random()%venueNames.count]];
@@ -108,9 +108,9 @@
     self.questionLabel.text = [NSString stringWithFormat:@"What's %@?", currentVenue];
     [self.buttonOne setTitle:wrongChoiceOne forState:UIControlStateNormal];
     [self.buttonTwo setTitle:wrongChoiceTwo forState:UIControlStateNormal];
-    [self.buttonThree setTitle:rightAnswer forState:UIControlStateNormal];
+    [self.buttonThree setTitle:self.rightAnswer forState:UIControlStateNormal];
     
-    NSLog(@"%@ is a %@, but not a %@ nor a %@", currentVenue, rightAnswer, wrongChoiceOne, wrongChoiceTwo);
+    NSLog(@"%@ is a %@, but not a %@ nor a %@", currentVenue, self.rightAnswer, wrongChoiceOne, wrongChoiceTwo);
 }
 
 -(IBAction)userTappedAnswer:(UIButton *)sender{
